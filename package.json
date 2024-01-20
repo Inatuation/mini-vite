@@ -1,0 +1,24 @@
+{
+  "name": "vite-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/compiler-dom": "^3.4.15",
+    "@vue/compiler-sfc": "^3.4.14",
+    "@vue/reactivity": "^3.4.14",
+    "@vue/runtime-core": "^3.4.14",
+    "@vue/runtime-dom": "^3.4.14",
+    "@vue/shared": "^3.4.14",
+    "koa": "^2.15.0",
+    "vue": "^3.4.14"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5"
+  }
+}
