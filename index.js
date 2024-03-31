@@ -11,7 +11,7 @@ app.use(async (ctx) => {
     const { url, query } = ctx.request;
     if (url === '/') {
         // 读取html内容并返回
-        const htmlFile = fs.readFileSync(path.join(__dirname, '/src/index.html'), 'utf8');
+        const htmlFile = fs.readFileSync(path.join(__dirname, '/index.html'), 'utf8');
         ctx.type = htmlType;
         ctx.body = htmlFile;
     } else if (url.endsWith('.js')) {

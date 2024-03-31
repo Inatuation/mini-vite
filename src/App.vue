@@ -1,14 +1,14 @@
 <template>
-    <div class="abc">{{ number }}</div>
+    <div class="abc">{{ title }}</div>
 </template>
 
 <script>
 import { ref } from 'vue';
 export default {
     setup() {
-        const number = ref(1234);
+        const title = ref('hello world');
         return {
-            number
+            title
         }
     }
 }
